@@ -24,7 +24,7 @@ To get started with DataDex, follow these steps:
 
 ## Documentation and Support
 
-For detailed documentation and guides on how to use DataDex, please refer to our [official documentation](./docs). If you have any questions, suggestions, or encounter any issues, please reach out to me via Twitter or LinkedIn.
+For detailed documentation and guides on how to use DataDex, please refer to our [official wiki](./wiki). If you have any questions, suggestions, or encounter any issues, please reach out to me via Twitter or LinkedIn.
 
 ## Contributing
 
