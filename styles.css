@@ -1,1 +1,16 @@
 /* TODO: Add CSS styling for extension UI */
+
+body {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  #message {
+    font-size: 20px;
+    text-align: center;
+  }
+  
