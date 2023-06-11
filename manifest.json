@@ -3,8 +3,27 @@
     "name": "DataDex",
     "version": "1.0.0",
     "description": "A browser extension to help content creators with research and data aggregation.",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "photo-editor.html"
+            ],
+            "matches": [
+                "*://*.example.com/*"
+            ]
+        }
+    ],
     "action": {
         "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "externally_connectable": {
+        "matches": ["<all_urls>"]
     },
     "content_scripts": [
         {
@@ -12,8 +31,5 @@
             "js": ["content.js"]
         }
     ],
-    "permissions": [
-        "tabs",
-        {"host_permissions": ["<all_urls>"]}
-    ]
+    "permissions": ["tabs", "activeTab", "<all_urls>", "storage"]
 }
