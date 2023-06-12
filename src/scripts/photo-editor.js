@@ -7,14 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     saveButton.addEventListener("click", function() {
         var canvas = document.createElement("canvas");
-        console.log(img.offsetWidth);
-        if (img.offsetWidth > 1400) {
-            r = 1.3;
-        } else {
-            r = 2;
-        };
-        canvas.width = img.offsetWidth * r;
-        canvas.height = img.offsetHeight * r;
+        canvas.width = img.naturalWidth;
+        canvas.height = img.naturalHeight;
         var context = canvas.getContext("2d");
         context.drawImage(img, 0, 0);
         var link = document.createElement("a");
