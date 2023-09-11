@@ -17,7 +17,7 @@ DataDex is a powerful browser extension designed to assist content creators with
 
 To get started with DataDex, follow these steps:
 
-1. Install the DataDex browser extension from the Chrome Web Store.
+1. Install the DataDex browser extension from the Chrome Web Store (or manually).
 2. Once installed, the DataDex icon will appear in your browser's toolbar.
 3. Click on the DataDex icon to access the extension's features.
 4. Use the different features - Smart Screenshots, Data Extractor, Content Snippet Library, and Research Aggregator - to enhance your research and content creation process.
